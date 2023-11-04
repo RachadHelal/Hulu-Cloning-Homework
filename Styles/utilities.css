@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
+    filter: brightness(90%);
 }
 
 .sign-up {
@@ -49,6 +50,7 @@
     display: flex;
     justify-content: center;
     color: #ffffff;
+    filter: brightness(90%);
 }
 
 .homepage-footer {
@@ -59,7 +61,7 @@
 .allplans {
     color: #00ED82;
     margin-bottom: 20px;
-    margin-top: 230px;
+    margin-top: 170px;
     font-size: 14px;
 }
 
@@ -76,19 +78,16 @@
     margin-bottom: 60px;
 }
 
-.section2 {
+.container2 {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 40vh;
-}
-
-.container2 {
-    display: flex;
+    gap: 40px;
 }
 
 .card1 {
     position: relative;
+    border: transparent;
 }
 
 .trial {
@@ -112,6 +111,74 @@
 
 .family-guy, .prey, .murders, .sopranos{
     border-radius: 15px;
-    height: 60vh;
-    filter: brightness(60%);
+    height: 50vh;
+    filter: brightness(70%);
+}
+
+.premiump {
+    display: flex;
+    color: #FFFFFF99;
+    font-size: 10px;
+    margin-top: 10px;
+    position: relative; left: 1300px;
+    filter: brightness(80%);
+}
+
+.section2-footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.hulu-live {
+    color: #1CE783;
+    font-size: 12px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.live-tv-makes {
+    color:#ffffff;
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.long-p {
+    color: #FFFFFF;
+    filter: brightness(90%);
+    margin-bottom: 18px;
+    font-size: 18px;
+    line-height: 1.32;
+}
+
+.get-hulu-btn {
+    color: #000000;
+    font-weight: bold;
+    background-color: #1CE783;
+    padding: 14px 24px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.hulu-with-ads {
+    font-size: 10px;
+    color: #FFFFFF99;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.view-channels {
+   font-size: 16px; 
+   letter-spacing: .6px;
+   line-height: 1;
+}
+
+.view-channels-btn {
+    cursor: pointer;
+    background-color: #0b0c0f;
+    color: #FFFFFF;
+    margin-bottom: 60px;
 }
