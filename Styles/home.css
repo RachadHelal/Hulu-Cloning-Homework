@@ -31,7 +31,7 @@ body {
 .homepage{
     width: 100vw;
     height: 100vh;
-    background-image: url("/Assets/hulu\ images/main.jpeg");
+    background-image: url("/Assets/images/main.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
 }
