@@ -59,20 +59,21 @@
 .allplans {
     color: #00ED82;
     margin-bottom: 20px;
-    margin-top: 180px;
-    font-size: 12px;
+    margin-top: 230px;
+    font-size: 14px;
 }
 
 .all-love {
     color: #ffffff;
     margin-bottom: 18px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 48px;
 }
 
 .hpf-p {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: 60px;
 }
 
 .section2 {
@@ -80,6 +81,10 @@
     justify-content: center;
     width: 100vw;
     height: 40vh;
+}
+
+.container2 {
+    display: flex;
 }
 
 .card1 {
@@ -95,14 +100,14 @@
     color: #ffffff;
     margin-top: 25px;
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .category {
     color: #ffffff;
-    margin-top: 10px;
+    margin-top: 6px;
     margin-left: 20px;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .family-guy, .prey, .murders, .sopranos{
