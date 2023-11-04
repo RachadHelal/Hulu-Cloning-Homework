@@ -74,3 +74,39 @@
     color: #ffffff;
     font-size: 16px;
 }
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+}
+
+.card1 {
+    position: relative;
+}
+
+.trial {
+    position: absolute;
+    top: 0;
+}
+
+.seasons {
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.category {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.family-guy, .prey, .murders, .sopranos{
+    border-radius: 15px;
+    height: 60vh;
+    filter: brightness(60%);
+}
