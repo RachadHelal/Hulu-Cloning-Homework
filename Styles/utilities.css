@@ -444,3 +444,35 @@ border-radius: 50%;
     color: #FFFFFF;
     font-size: 14px;
 }
+
+.monthly-price {
+    line-height: 1.4;
+    font-weight: 400;
+    filter: brightness(90%);
+}
+
+.price1 {
+    padding-left: 540px;
+    line-height: 1.4;
+    font-weight: 400;
+    filter: brightness(90%);
+}
+
+.price2 {
+    padding-left: 310px;
+    line-height: 1.4;
+    font-weight: 400;
+    filter: brightness(90%);
+}
+
+.arrow1 {
+    height: 30px;
+    padding-bottom: 4px;
+    padding-left: 290px;
+}
+
+.arrow2 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 360px;
+}
