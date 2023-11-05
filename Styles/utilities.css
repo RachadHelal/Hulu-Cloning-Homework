@@ -200,7 +200,7 @@
 
 .container3 {
     padding-top: 210px;
-    padding-left: 200px;
+    padding-left: 330px;
 }
 
 .live-breaking-biggest {
@@ -208,12 +208,13 @@
     color: #FFFFFF;
     gap: 30px;
     font-size: 14px;
-    font-weight: bold;
     margin-bottom: 50px;
+    filter: brightness(80%);
 }
 
 .live-sports2 {
     color: #FFFFFF;
+
 }
 
 .header-live-sports {
@@ -225,6 +226,17 @@
     line-height: 1.5;
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+.mini-logos {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.cbs-img, .espn-img, .fs1-img, .network-img {
+    border-radius: 100px;
+    height: 5vh;
 }
 
 .live-tv-plan-required {
