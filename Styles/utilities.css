@@ -599,7 +599,7 @@ border-radius: 50%;
     justify-content: center;
     align-items: center;
     text-align:  left;
-    height: 365px;
+    height: 325px;
     border-bottom: 1.5px solid lightgrey;
     margin: 0 290px;
     overflow-y: hidden;
@@ -651,7 +651,7 @@ border-radius: 50%;
 }
 
 .about-us {
-    padding-bottom: 70px;
+    padding-bottom: 75px;
     width: 200px;
 }
 
@@ -677,4 +677,27 @@ border-radius: 50%;
 
 .instagram {
     height: 18px;
+}
+
+.footer-section3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 65px;
+    padding-top: 20px;
+    margin: 0px 290px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.footer-section3 a {
+    text-decoration: none;
+}
+
+.about-ads {
+    padding-bottom: 7px;
+}
+
+.blue-icon-footer {
+    padding-right: 3px;
 }
