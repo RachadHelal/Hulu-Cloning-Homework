@@ -332,6 +332,7 @@ border-radius: 50%;
     text-align: center;
     margin-top: 30px;
     border-bottom: 1px solid grey;
+    margin: 25px 310px 0px 310px;
 }
 
 .toggle-section {
@@ -432,4 +433,14 @@ border-radius: 50%;
 .monthly-payment {
     font-weight: bold;
     letter-spacing: .8px;
-} */
+}
+
+.table-form {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 0px 310px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
