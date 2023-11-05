@@ -129,7 +129,6 @@
 }
 
 .section2-footer {
-    justify-content: center;
     text-align: center;
 }
 
@@ -243,3 +242,194 @@
     color: #FFFFFF99;
     font-size: 10px;
 }
+
+.select-your-plan {
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin: 0px 310px;
+}
+
+.your-plan {
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+
+.no-hidden-fees {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+/* The slider */
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #1CE783;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+.bundles {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.toggle-section {
+    margin-top: 55px;
+    display: flex;
+    gap: 15px;
+}
+
+.base-plan {
+    text-align: center;
+}
+
+.base-p {
+    color: #FFFFFF;
+}
+
+.bundle-p {
+    color: #FFFFFF;
+}
+
+.hulu-logo1 {
+    margin-top: 20px;
+    height: 1.2svh;
+}
+
+.hulu-disney-espn1 {
+    height: 4vh;
+}
+
+.bundle-card1 {
+    text-align: center;
+    align-items: center;
+}
+
+.bundle-card2 {
+    margin-top: 48px;
+    text-align: center;
+    align-items: center;
+}
+
+ .most-popular-btn {
+    padding: 10.5px 27px;
+    background-color: #1CE783;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.most-popular-p {
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.thirtee-day-free-trial {
+    color: #FFFFFF99;
+}
+
+
+.thirtee-day-free-trial2 {
+    color: #FFFFFF99;
+
+}
+
+.seven-99-month {
+    height: 40px;
+    padding: 0px 100px;
+    background-color: #FFFFFF;
+    color: #040405;
+    border-radius: 4px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}
+
+.seventeen-99-month {
+    margin-top: 20px;
+    height: 40px;
+    padding: 0px 100px;
+    background-color: #FFFFFF;
+    color: #040405;
+    border-radius: 4px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.hulu-with-ads1 {
+    margin-top: 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.hulu-no-ads {
+    margin-top: 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.monthly-payment {
+    font-weight: bold;
+    letter-spacing: .8px;
+} */
