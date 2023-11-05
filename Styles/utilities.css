@@ -654,3 +654,27 @@ border-radius: 50%;
     padding-bottom: 70px;
     width: 200px;
 }
+
+.footer-section2 {
+    height: 80px;
+    display: flex;
+    gap: 30px;
+    margin: 0px 290px;
+    padding-top: 40px;
+}
+
+.fb {
+    height: 18px;
+}
+
+.twitter {
+    height: 18px;
+}
+
+.youtube {
+    height: 18px;
+}
+
+.instagram {
+    height: 18px;
+}
