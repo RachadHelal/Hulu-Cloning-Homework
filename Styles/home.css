@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 
@@ -29,8 +30,6 @@ body {
 }
 
 .homepage{
-    width: 100vw;
-    height: 100vh;
     background-image: url("/Assets/images/main.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
