@@ -328,9 +328,9 @@ border-radius: 50%;
 .bundles {
     display: flex;
     gap: 70px;
+    height: 200px;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
     border-bottom: 1px solid grey;
     margin: 25px 310px 0px 310px;
 }
@@ -465,14 +465,130 @@ border-radius: 50%;
     filter: brightness(90%);
 }
 
-.arrow1 {
+.arrow1-row1 {
     height: 30px;
     padding-bottom: 4px;
     padding-left: 290px;
 }
 
-.arrow2 {
+.arrow2-row1 {
     height: 30px;
     padding-bottom: 4px; 
     padding-left: 360px;
+}
+
+.arrow1-row2 {
+    height: 30px;
+    padding-bottom: 4px;
+    padding-left: 380px;
+}
+
+.arrow2-row2 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 357px;
+}
+
+.arrow1-row3 {
+    height: 30px;
+    padding-bottom: 4px;
+    padding-left: 390px;
+}
+
+.arrow2-row3 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 353px;
+}
+
+.arrow1-row4 {
+    height: 30px;
+    padding-bottom: 4px;
+    padding-left: 206px;
+}
+
+.arrow2-row4 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 353px;
+}
+
+.arrow1-row5 {
+    height: 30px;
+    padding-bottom: 4px;
+    padding-left: 390px;
+}
+
+.arrow2-row5 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 355px;
+}
+
+.arrow1-row6 {
+    height: 30px;
+    padding-bottom: 4px;
+    padding-left: 350px;
+}
+
+.arrow2-row6 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 355px;
+}
+
+.dash {
+    padding-left: 360px;
+}
+
+.arrow2-row7 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 360px;  
+}
+
+.dash1 {
+    padding-left: 485px;
+}
+
+.arrow2-row8 {
+    height: 30px;
+    padding-bottom: 4px; 
+    padding-left: 360px;  
+}
+
+.for-current-reason {
+    height: 100px;
+    border-bottom: 1px solid grey;
+    margin: 0px 310px;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.for-p {
+    padding-top: 15px;
+}
+
+.show-odd-ons {
+    height: 80px;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    margin: 0px 310px 45px 310px;
+}
+
+.show-p {
+    letter-spacing: .7px;
+}
+
+.drop-down-arrow {
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #f6f7f8;
+    height: 500px
 }
